@@ -798,3 +798,101 @@ Served asset /application.js - 304 Not Modified (0ms)
 
 Started GET "/assets/twitter_64.png" for 127.0.0.1 at 2011-12-13 19:48:30 +0900
 Served asset /twitter_64.png - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2011-12-13 20:00:02 +0900
+  Processing by SessionsController#new as HTML
+Rendered sessions/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 30ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-12-13 20:00:03 +0900
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/identities.css?body=1" for 127.0.0.1 at 2011-12-13 20:00:03 +0900
+Served asset /identities.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-12-13 20:00:03 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-12-13 20:00:03 +0900
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2011-12-13 20:00:03 +0900
+Served asset /sessions.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-12-13 20:00:03 +0900
+Served asset /layout.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/identities.js?body=1" for 127.0.0.1 at 2011-12-13 20:00:03 +0900
+Served asset /identities.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2011-12-13 20:00:03 +0900
+Served asset /sessions.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-12-13 20:00:03 +0900
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter_64.png" for 127.0.0.1 at 2011-12-13 20:00:03 +0900
+Served asset /twitter_64.png - 304 Not Modified (1ms)
+
+
+Started POST "/auth/identity/callback" for 127.0.0.1 at 2011-12-13 20:00:05 +0900
+  [1m[36mIdentity Load (0.1ms)[0m  [1mSELECT "identities".* FROM "identities" WHERE "identities"."email" = 'haradashinya@gmail.com' LIMIT 1[0m
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FbsTkSbLyqAabikH3gQmQYX9VJoFQ0HxLI9vEG722w8=", "auth_key"=>"haradashinya@gmail.com", "password"=>"[FILTERED]", "commit"=>"Login", "provider"=>"identity"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."provider" = 'identity' AND "users"."uid" = '1' LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 11ms
+
+
+Started GET "/" for 127.0.0.1 at 2011-12-13 20:00:06 +0900
+  Processing by SessionsController#new as HTML
+  [1m[36mUser Load (4.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Rendered sessions/new.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 25ms (Views: 19.0ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2011-12-13 20:00:06 +0900
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2011-12-13 20:00:06 +0900
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/identities.css?body=1" for 127.0.0.1 at 2011-12-13 20:00:06 +0900
+Served asset /identities.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2011-12-13 20:00:06 +0900
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/layout.css?body=1" for 127.0.0.1 at 2011-12-13 20:00:06 +0900
+Served asset /layout.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2011-12-13 20:00:06 +0900
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/identities.js?body=1" for 127.0.0.1 at 2011-12-13 20:00:06 +0900
+Served asset /identities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2011-12-13 20:00:06 +0900
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2011-12-13 20:00:06 +0900
+Served asset /application.js - 304 Not Modified (1ms)
