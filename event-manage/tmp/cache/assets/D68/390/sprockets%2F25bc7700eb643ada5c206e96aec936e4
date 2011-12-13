@@ -1,22 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1323772689.491893:@value{	I"length:EFi/I"digest;
-F"%52028e2fbacccf2632c987b5bc34c80cI"source;
-FI"//* line 4, /Users/haradashinya/Downloads/304-omniauth-identity/auth-after/app/assets/stylesheets/sessions.css.scss */
-.auth_providers {
-  height: 90px;
-}
-
-/* line 8, /Users/haradashinya/Downloads/304-omniauth-identity/auth-after/app/assets/stylesheets/sessions.css.scss */
-.auth_provider {
-  float: left;
-  text-decoration: none;
-  margin-right: 20px;
-  text-align: center;
-  margin-bottom: 10px;
-}
-/* line 15, /Users/haradashinya/Downloads/304-omniauth-identity/auth-after/app/assets/stylesheets/sessions.css.scss */
-.auth_provider img {
-  display: block;
-}
-;
-FI"_version;
-F"%5a9d9f3c03117864c2ef5d1269c9b3fe
