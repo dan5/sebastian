@@ -1,0 +1,17 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1323772690.113773:@value{I"
+class:EFI"StaticAsset;
+FI"id;
+F"%3b147bd3c8cfae67c3f162af822da433I"logical_path;
+FI"google_apps_64.png;
+TI"pathname;
+FI"/$root/app/assets/images/google_apps_64.png;
+FI"content_type;
+FI"image/png;
+FI"
+mtime;
+FI"2011-12-05T18:07:26+09:00;
+FI"length;
+FI"	3446;
+FI"digest;
+F"%d4d6f094573cff92e3b88ff27baffba0I"_version;
+F"%46dde6621c301f4928e3b34efee9e3b5
